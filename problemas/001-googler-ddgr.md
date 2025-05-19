@@ -1,42 +1,41 @@
-🧠 Problema 001 – googler bloqueado pelo Google
+# 🧠 Problema 001 – googler bloqueado pelo Google
 
-📌 Situação
+## 📌 Situação
 
-Tentamos usar o googler para realizar buscas no Google diretamente do terminal (Ubuntu Server 22.04 em VM). A proposta é manter o sistema CLI-first.
+Tentamos usar o `googler` para realizar buscas no Google diretamente do terminal (Ubuntu Server 22.04 em VM). A proposta é manter o sistema CLI-first.
 
-❗ Sintoma
+## ❗ Sintoma
 
+```bash
 googler bash vs zsh
 Resultado: No results. ou HTTP Error 429: Too Many Requests
+```
 
-🔍 Diagnóstico Técnico
+## 🔍 Diagnóstico Técnico
 
 O Google detectou tráfego automatizado e bloqueou as requisições.
 
-Fatores:
+**Fatores:**
 
-Uso de VM sem IP real (NAT)
+* Uso de VM sem IP real (NAT)
+* Ausência de user-agent legítimo
+* Comportamento repetitivo (testes sucessivos)
 
-Ausência de user-agent legítimo
+## 🛠️ Soluções Testadas
 
-Comportamento repetitivo (testes sucessivos)
+* Modo Bridge na VM (para obter IP real)
+* Instalação do `dhclient` para forçar IP IPv4
+* Uso de user-agent Mozilla no googler
+* Substituição por `ddgr` com DuckDuckGo
 
-🛠️ Soluções Testadas
+## ✅ Solução Adotada
 
-Modo Bridge na VM (para obter IP real)
-
-Instalação do dhclient para forçar IP IPv4
-
-Uso de user-agent Mozilla no googler
-
-Substituição por ddgr com DuckDuckGo
-
-✅ Solução Adotada
-
+```bash
 sudo apt install ddgr
 ddgr bash scripting
+```
 
-✍️ Reflexão Pessoal – googler, ddgr e o choque com a realidade
+## ✍️ Reflexão Pessoal – googler, ddgr e o choque com a realidade
 
 Meu objetivo inicial era simples: usar o Google diretamente do terminal. Eu queria manter o sistema sem interface gráfica a maior parte do tempo, e só ligar o ambiente gráfico quando necessário.
 
