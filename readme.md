@@ -50,7 +50,7 @@ Não tenho pressa de parecer pronto. Tenho compromisso de **me tornar sólido**.
 
 Se quiser trocar ideias, compartilhar insights ou dar feedback técnico, ficarei feliz em conversar:
 
-- [LinkedIn](www.linkedin.com/in/lucasfernandes509)  
+- LinkedIn: www.linkedin.com/in/lucasfernandes509 
 
 ---
 
