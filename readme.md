@@ -1,6 +1,4 @@
-# 🧠 Linux – Jornada Técnica de Aprendizado Real
-
-👤 **Lucas Fernandes** | Analista de Sistemas • Estudante DevOps • Entusiasta de Linux, Cloud e Automação
+# 🧠 Linux – Jornada Técnica 
 
 ---
 
