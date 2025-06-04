@@ -8,8 +8,6 @@ Repositório dedicado ao desenvolvimento prático de habilidades em:
 
 - Administração de sistemas Linux;
 - Automação com Shell Script;
-- Containers com Docker;
-- Fundamentos de DevOps e práticas operacionais.
 
 Foco principal: aplicar conceitos técnicos em ambientes reais, documentar erros enfrentados, registrar soluções aplicadas e consolidar conhecimento por meio da prática contínua.
 
