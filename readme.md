@@ -4,8 +4,16 @@
 
 ## 🚀 Visão Geral
 
-Este repositório foi criado como parte do meu desenvolvimento pessoal e técnico, para aprofundar meu conhecimento em Linux, automação, containers e práticas DevOps. Ele representa não apenas projetos finalizados, mas principalmente **o processo real de aprendizado**, com seus erros, soluções e reflexões.
+Repositório dedicado ao desenvolvimento prático de habilidades em:
 
+- Administração de sistemas Linux;
+- Automação com Shell Script;
+- Containers com Docker;
+- Fundamentos de DevOps e práticas operacionais.
+
+Foco principal: aplicar conceitos técnicos em ambientes reais, documentar erros enfrentados, registrar soluções aplicadas e consolidar conhecimento por meio da prática contínua.
+
+---
 Aqui não há pretensão de parecer um especialista, mas sim de demonstrar:
 ✅ Curiosidade genuína  
 ✅ Capacidade de execução prática  
